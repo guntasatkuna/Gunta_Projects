@@ -1,0 +1,97 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int number1 = scan.nextInt();
+        System.out.println("Enter second number: ");
+        int number2= scan.nextInt();
+        System.out.println("Enter an operator: ");
+        String str = scan.next();
+        char symbol = str.charAt(0);
+
+        scan.close();
+
+                /** int number1 = 200;
+                int number2 = 1000;
+                char symbol = 'b'; */
+
+                switch (symbol) {
+                    case '+':
+                        System.out.println(number1 + number2);
+                        break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case '-':
+                        System.out.println(number1 - number2);
+                        break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case '/':
+                        System.out.println(number1 / number2);
+                        break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case '*':
+                        System.out.println(number1 * number2);
+                        break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case '%':
+                        System.out.println(number1 % number2);
+                        break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case 'p':
+                        System.out.println(number1);
+                        System.out.println(number2);
+                        break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case 'b':
+                        if (number1 > number2) {
+                            System.out.println("number1 is bigger than number2");
+                        }
+                        else if (number1 < number2); {
+                        System.out.println("number2 is bigger than number1");}
+                    break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+                switch (symbol) {
+                    case 's':
+                        if (number1 < number2) {
+                            System.out.println("number1 is smaller than number2");
+                        }
+                        else if (number1 > number2); {
+                        System.out.println("number2 is smaller than number1");}
+                    break;
+                    default:
+                        System.out.println("Invalid operation.");
+                }
+
+            }
+        }
