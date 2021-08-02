@@ -31,3 +31,32 @@ public class Hero {
 
     */
 
+private String Name;
+private String Surname;
+private String Nickname;
+private int heroID;
+private String Type;
+private int DeedTime;
+
+public Hero() {
+
+this.Name = "Baiba";
+this.Surname = "Bite";
+this.Nickname = "SuperBee";
+this.heroID = 123435f;
+this.Type = "Hero";
+this.deedTime = 3f;
+
+//
+
+public Hero (inputName, inputSurname, inputNickname, inputHeroID, inputType, inputDeedTime) {
+this.Name = "Baiba";
+this.Surname = "Bite";
+this.Nickname = "SuperBee";
+this.heroID = 123435f;
+this.Type = "Hero";
+this.deedTime = 3f;
+
+}
+
+
