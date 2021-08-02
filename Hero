@@ -31,6 +31,8 @@ public class Hero {
 
     */
 
+// Fields - different values for different objects
+
 private String Name;
 private String Surname;
 private String Nickname;
@@ -38,6 +40,7 @@ private int heroID;
 private String Type;
 private int DeedTime;
 
+ //non-argument constructor
 public Hero() {
 
 this.Name = "Baiba";
@@ -45,9 +48,11 @@ this.Surname = "Bite";
 this.Nickname = "SuperBee";
 this.heroID = 123435f;
 this.Type = "Hero";
-this.deedTime = 3f;
+this.DeedTime = 3f;
 
-//
+}
+
+//constructor with arguments
 
 public Hero (inputName, inputSurname, inputNickname, inputHeroID, inputType, inputDeedTime) {
 this.Name = "Baiba";
@@ -55,8 +60,35 @@ this.Surname = "Bite";
 this.Nickname = "SuperBee";
 this.heroID = 123435f;
 this.Type = "Hero";
-this.deedTime = 3f;
+this.DeedTime = 3f;
 
 }
 
+    public String getName() {
+        return Name;
+    }
 
+     public String getSurname() {
+        return Surname;
+    }
+
+    public String getNickname() {
+        return Nickname;
+    }
+
+    public int getHeroID() {
+        return HeroID;
+    }
+
+    public String getType() {
+        return Type;
+    }
+
+    public int getDeedTime() {
+            return DeedTimeD;
+}
+
+//creating object with constructor without arguments
+
+Hero H1 = new Hero ();
+System.out.println ( "Name of Hero1 = " + H1.getName());
