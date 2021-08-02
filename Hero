@@ -1,0 +1,33 @@
+package com.company;
+
+public class Hero {
+
+    public static void main(String[] args) {
+
+
+ //*  1. Create a new class Hero as shown in the diagram:
+
+    Hero class
+
+    Attributes
+
+    - name: String
+
+    - surname: String
+
+    - nickname: String
+
+    - heroID: int
+
+    - hero type: Hero / Villain
+
+    - deedTime: int
+
+    Methods
+
+    - no-arg constructor
+
+    - arg constructor
+
+    */
+
